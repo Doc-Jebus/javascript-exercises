@@ -1,4 +1,4 @@
-const repeatString = require('./repeatString')
+cdconst repeatString = require('./repeatString')
 
 describe('repeatString', () => {
   test('repeats the string', () => {
