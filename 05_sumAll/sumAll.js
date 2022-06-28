@@ -4,9 +4,11 @@ const sumAll = function(start, end) {
         arr.push(start++);
     }
     
+    const reducer = (accumulator, curr) => accumulator + curr;
+    return arr.reduce(reducer);
+    
 };
- sumAll(1, 10);
- console.log(arr);
+
 
 // Do not edit below this line
 module.exports = sumAll;
