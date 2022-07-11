@@ -15,12 +15,26 @@ const subtract = function(num1, num2) {
   return result;
 };
 
-const sum = function() {
-	
+const sum = function(arr) {
+	let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  console.log(arr);
+  console.log(sum);
+  return sum;
 };
 
-const multiply = function() {
-
+const multiply = function(arr) {
+  let result;
+  for (let i = 0; i < arr.length; i++) {
+  
+  result = arr.map(x => x * arr[i].length);
+  
+  };
+  console.log(arr);
+  console.log(result);
+  return result;
 };
 
 const power = function() {
