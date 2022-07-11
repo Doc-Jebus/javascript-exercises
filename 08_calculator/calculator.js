@@ -1,18 +1,11 @@
 const add = function(num1, num2) {
-	console.log(num1, num2);
-  let result;
-  result = num1 + num2;
-  console.log(result);
-  return result;
+  return num1 + num2;
   
 };
 
 const subtract = function(num1, num2) {
-	console.log(num1, num2);
-  let result;
-  result = num1 - num2;
-  console.log(result);
-  return result;
+  
+  return num1 - num2;
 };
 
 const sum = function(arr) {
@@ -20,25 +13,16 @@ const sum = function(arr) {
   for (let i = 0; i < arr.length; i++) {
     sum += arr[i];
   }
-  console.log(arr);
-  console.log(sum);
   return sum;
 };
 
 const multiply = function(arr) {
-  let result;
-  for (let i = 0; i < arr.length; i++) {
+  return arr.reduce((total, item) => total * item);
   
-  result = arr.map(x => x * arr[i].length);
-  
-  };
-  console.log(arr);
-  console.log(result);
-  return result;
 };
 
-const power = function() {
-	
+const power = function(num1, num2) {
+	return num1 ** num2;
 };
 
 const factorial = function() {
