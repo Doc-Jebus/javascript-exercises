@@ -1,9 +1,18 @@
-const add = function() {
-	
+const add = function(num1, num2) {
+	console.log(num1, num2);
+  let result;
+  result = num1 + num2;
+  console.log(result);
+  return result;
+  
 };
 
-const subtract = function() {
-	
+const subtract = function(num1, num2) {
+	console.log(num1, num2);
+  let result;
+  result = num1 - num2;
+  console.log(result);
+  return result;
 };
 
 const sum = function() {
